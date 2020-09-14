@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LOGITpv19.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="SkyBlue"
+                  BorderColor="Fuchsia" 
+                  Padding="25,30,25,30"
+                  Opacity="0.5">
+                <Label Text="Esimene punkt"
+                         TextColor="HotPink"
+                         FontSize="Title"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

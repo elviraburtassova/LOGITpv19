@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LOGITpv19.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame x:Name="rd"
+                   BackgroundColor="red"
+                   BorderColor="Black"
+                   Margin="60,10"
+                   Padding="80"
+                   CornerRadius="90">
+                <Label x:Name="red" Text="red"
+                   TextColor="black"
+                   FontSize="Title">
+                </Label>
+            </Frame>
+
+            <Frame x:Name="yel"
+                   BackgroundColor="Yellow"
+                   BorderColor="Black"
+                   Margin="60,10"
+                   Padding="80"
+                   CornerRadius="90">
+                <Label x:Name="yellow" Text="yellow"
+                   TextColor="black"
+                   FontSize="Title">
+                </Label>
+            </Frame>
+
+            <Frame x:Name="gren"
+                   BackgroundColor="Green"
+                   BorderColor="Black"
+                   Margin="60,10"
+                   Padding="80"
+                   CornerRadius="90">
+                <Label x:Name="green" Text="green"
+                   TextColor="black"
+                   FontSize="Title">
+                </Label>
+            </Frame>
+
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="on"
+                        Text="Sisse"
+                        HorizontalOptions="StartAndExpand"
+                        Clicked="on_Clicked"/>
+                <Button x:Name="off"
+                        Text="Välja"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="off_Clicked"/>
+                <Button x:Name="Random"
+                        Text="Random"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Random_Clicked"/>
+                <Button x:Name="Bublik"
+                        Text="Bublik"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Bublik_Clicked"/>
+
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
